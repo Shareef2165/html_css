@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+body{
+    background-color: #181a1f;
+    /* background-color:	#605c00; */
+    color:white;
+}
+
+
+
+
+
+.container{
+    padding:50px 0px;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap
+    
+}
+.parent{
+    height: 400px;
+    width:300px;
+    padding:20px;
+    perspective: 1000px;
+
+}
+
+
+.card{
+    padding:100px;
+    transform-style: preserve-3d ;
+    background: url("./assets/img/house.jpg") no-repeat ;
+    background-position: center center;
+    height: 100%;;
+    width: 100%;
+    transition:  all 500ms ease-in-out;
+    border-radius: 10px;
+    animation: moveright 5s linear infinite;
+ &:hover{
+    background-position: 80% 20%;
+    transform:  rotate3d(0.5, 1, 0, 30deg);
+   
+    transform: translateX(500px);
+  
+ }
+
+ 
+
+}
+/* @keyframes moveright:hover
+ {
+    0%{
+       
+
+    }
+ 100%{
+        
+    }
+ } */
+
+
+
+.card__2{
+    padding:100px;
+    filter:hue-rotate(90deg);
+    transform-style: preserve-3d ;
+    background: url("./assets/img/gust_house.jpg") no-repeat ;
+    background-position: center center;
+    height: 100%;;
+    width: 100%;
+    transition:  all 500ms ease-in-out;
+    border-radius: 10px;
+    animation: moveright 5s linear infinite;
+ &:hover{
+    background-position: 80% 20%;
+    transform:  rotate3d(0.5, 1, 0, 30deg);
+   
+    transform: translateX(500px);
+    /* transform: translateY(500px); */
+
+ }
+ 
+
+}
+
+.card__3{
+    padding:100px;
+    filter:hue-rotate(180deg);
+    transform-style: preserve-3d ;
+    background: url("./assets/img/music_artist.jpg") no-repeat ;
+    background-position: center center;
+    height: 100%;;
+    width: 100%;
+    transition:  all 500ms ease-in-out;
+    border-radius: 10px;
+    animation: moveright 5s linear infinite;
+ &:hover{
+    background-position: 80% 20%;
+    transform:  rotate3d(0.5, 1, 0, 30deg);
+    
+    transform: translateX(500px);
+
+ }
+ 
+
+}
+.card__4{
+    padding:100px;
+    filter:hue-rotate(180deg);
+    transform-style: preserve-3d ;
+    background: url("./assets/img/cartoon.jpg") no-repeat ;
+    background-position: center center;
+    height: 100%;;
+    width: 100%;
+    transition:  all 500ms ease-in-out;
+    border-radius: 10px;
+    animation: moveright 5s linear infinite;
+ &:hover{
+    background-position: 80% 20%;
+    transform:  rotate3d(0.5, 1, 0, 30deg);
+   
+    transform: translateX(500px);
+
+ }
+ 
+
+}
+
+
+
+
+
+
+
+
+.content-box{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px  0px 10px 10px;
+    /* background-color: rgba(0,0,0, 0.811); */
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    transition:  all 500ms ease-in-out;
+    padding:  50px  25px 25px 25px;
+    transform-style: preserve-3d ;
+    position: absolute;
+    left: 0;
+    
+   
+
+
+  
+}
+.card-title{
+    font-size: 25px;
+    font-weight:800;
+    transform:  translate3d(0px,0px,20px);
+    &:hover{
+       
+        transform:  translate3d(0px,0px,50px);
+    
+     }
+
+}
+.date-box{
+    border:4px solid purple;
+    position:absolute;
+    top:60px;
+    left:10px;
+    height: 60px;
+    width:60px;
+    background-color: black;
+    border-radius: 10px;
+    padding:2px;
+    box-shadow: rgb(0, 102, 255) 0px 20px 60px 0px,
+    rgb(0, 200, 255) 0px 18px 36px -18px;
+    transform:  translate3d(0px,0px,50px);
+        
+}
+
+
+.date{
+    /* margin-top: 0; */
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.month{
+    font-size: 11px;
+    font-weight: 700;
+    /* margin-bottom: 30px; */
+
+}
+
+.see-more{
+    cursor:pointer;
+    color:aquamarine;
+    /* background: none; */
+    font-weight:650;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(0,136,255);
+    padding: 15px;
+    transition:  all 500ms ease-in-out;
+    transform:  translate3d(0px,0px,20px);
+    &:hover{
+        transform:  translate3d(0px,0px,190px);
+       
+}
+}
+
+.card-content{
+    /* border:2px solid tomato; */
+    /* height: 200px; */
+   color: white;
+    width: 230px;
+    position: relative;
+    font-weight: 200;
+    padding: 5px;
+    /* position: absolute; */
+    margin-left: 0;
+    padding-top: 15px;
+    font-size: 12px;
+    color: rgb(185,185,185);
+    transform:  translate3d(0px,0px,20px);
+    display: flex;
+    flex-wrap: warp;
+    justify-content: flex-start;
+    flex-direction: row;
+    &:hover{
+       
+        transform:  translate3d(0px,0px,50px);
+        
+    
+     }
+
+}
+
+
+/* .card-2{
+    filter:hue-rotate(150deg);
+}
+
+
+.card-3{
+    filter:hue-rotate(45deg);
+}
+
+.card-4{
+    filter:hue-rotate(88deg);
+} */

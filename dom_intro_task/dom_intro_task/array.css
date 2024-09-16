@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.result.true {
+    background-color: #d4edda; /* Light green background for true */
+    color: #155724; /* Dark green text */
+    height: 100px; /* Increase the height */
+}
+
+.result.false {
+    background-color: red; /* Red background for false */
+    color: white; /* White text */
+    height: 50px; /* Set a different height */
+}

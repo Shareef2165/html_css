@@ -1,0 +1,318 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    background-color: #FFFFFF;
+    color: #15294B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.logo{
+    font-size: 1.5rem;
+    color:#15294B;
+    font-weight: 1000;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    font-weight: 400;
+    font-style: inter;
+}
+
+ul li {  
+
+    margin-right:20px;    
+}
+.getbtn{
+    background-color:#5900D9;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 3px;
+   
+}
+.startbtn{
+    border: 1px solid #5900D9;
+    padding: 2px 8px;
+    border-radius: 2px;
+
+}
+.section1{
+    /* background: url("./images/Gradient.png"); */
+    background-color: #1b1f3a;
+    
+    background-size: cover;
+    
+    width: 100%;
+    height:auto;
+    gap: 0px;
+    
+
+    color:#ffffff;
+    text-align: center;
+   padding: 30px;
+   
+
+}
+.freetrailbtn{
+    border: 1px solid #5900D9;
+    padding: 2px 8px;
+    border-radius: 2px;
+    
+
+}
+.getstartedbtn{
+    background-color:#5900D9;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 3px;
+
+}
+.btn{
+    padding: 20px;
+
+}
+.p1{
+    padding: 10px;
+}
+.cplogos img{
+    padding: 30px;
+    margin-top: 4px solid #C0CCDA;
+    margin-top: 4px solid #C0CCDA;
+}
+.section2{
+    background: url("./images/Gradient.png");
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.heading{
+    color: #EFE6FD;
+    width: 15%;
+    text-align: center;
+    /* flex-direction: column; */
+    background-color: #4600A9;
+    border: 2px solid  #4600A9;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.heading2 h1{
+    color: #FFFFFF;
+    padding: 20px;
+}
+.card1{
+    height: 340px;
+    width: 320px;
+    background-color: #42526D;
+    padding: 16px;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.card2{
+    height: 150px;
+    width: 400px;
+    background-color: #42526D;
+    padding: 16px;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+}
+.card3{
+    height: 150px;
+    width: 400px;
+    background-color: #42526D;
+    padding: 16px;
+    margin-top: 2%;
+    border-radius: 10px;
+    
+}
+.card4{
+    height: 370px;
+    width: 320px;
+    background-color: #42526D;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.card3 img{
+    float: left;
+}
+.card2 img{
+    float: left;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+   
+    
+
+}
+.section3 img{
+    padding: 20px;
+}
+.text{
+    color: #FFFFFF;
+    padding: 30px;
+}
+.text h6 {
+    padding: 20px;
+}
+.text p{
+    padding: 16px;
+}
+.section4{
+    background-color: #091E42;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.text2{
+    color: #FFFFFF;
+    
+}
+.section5{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+}
+.text3{
+    color: #FFFFFF;
+    padding: 30px;
+    
+}
+.text3 h6 {
+    padding: 20px;
+}
+.section5 img{
+    padding: 20px;
+}
+.text3 p{
+    padding: 16px;
+}
+.section6{
+    background: url("./images/Gradient.png");
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 350px 350px 350px; */
+    justify-content: center;
+    
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+}
+/* .main1{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+} */
+ .sub{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    width: 150%;
+ }  
+ .sub1{
+    display: flex; 
+    flex-direction: row;
+    flex-direction: row-reverse;
+    padding: 20%;
+    align-items: start;
+    justify-content: start;
+ }    
+#box5 #box6{
+    width: auto;
+
+}
+.box{
+   
+    
+    /* width: 300px;
+    height: 300px; */
+    border-radius: 10px;
+    background-color: #42526D;
+   margin: 5% 0;
+   text-align: center;
+   color: #FFFFFF;
+
+}
+.section7{
+    background: url("./images/Gradient.png");
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    color: #FFFFFF;
+    
+}
+ .section7 nav{
+    background-color: #000000;
+    width: 38%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: center;
+    margin: 2% auto;
+    border-radius: 20px;
+    
+}
+.section7 ul{
+    display: flex;
+    list-style:none;
+    
+}
+.task{
+    background-color: #4600A9;
+    border-radius: 2px;
+}
+.section8{
+    background-color: rgb(24, 24, 40);
+    height: auto;
+    width: 100%;
+    display: flex;
+    color: #FFFFFF;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    padding: 20px 0;
+    
+}
+.section8 ul{
+    display: flex;
+    list-style:none;
+    flex-direction: column;
+    margin: 5% 5%;
+  
+}
+
+
+
+

@@ -1,0 +1,64 @@
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+    padding: 50px;
+    text-align: center;
+    transition-timing-function: ease-in;
+    size: 1em;
+
+   
+    
+}
+.ball1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+    padding: 50px;
+    left: 50%;
+    text-align: center;
+    transition-timing-function: ease-in;
+    size: 1em;
+
+   
+    
+}
+.ball2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+    padding: 50px;
+    left: 85%;
+    text-align: center;
+    transition-timing-function: ease-in;
+    size: 1em;
+
+   
+    
+}
+@keyframes bounce{
+
+    0%,100%{ top:0;
+    }
+    50%{
+        top: 400px;
+    }
+}

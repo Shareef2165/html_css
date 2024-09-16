@@ -1,0 +1,93 @@
+<!-- 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            animation-name: division;
+            animation-duration: 15s;
+            position: relative;
+           /* animation-iteration-count: infinite;
+            animation-delay: 4s;*/
+        }
+       
+                            0%{
+                                background-color: aqua;left:0px;top: 0px;
+                            }
+                            25%{
+                                background-color: chartreuse;left: 400px;top: 0px;
+                            }
+                            50%{
+                                background-color: cornflowerblue;left: 400px;top: 400px;
+                            }
+                            75%{
+                                background-color: darkorchid;left: 0px;top: 400px;
+                            }
+                            100%{
+                                background-color: aquamarine;left: 0px;top: 0px;
+                            }
+        }
+    </style>
+</head>
+<body>
+   <div></div> 
+</body> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <style>
+    .elem {
+      background: orange;
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+      animation: moveToLeft 5s linear infinite;
+      animation-delay: 1000ms;
+    }
+
+    @keyframes moveToLeft {
+      0% {
+        transform: translateX(0px);
+        background: linear-gradient(
+          to right,
+          #ff8177 0%,
+          #ff867a 0%,
+          #ff8c7f 21%,
+          #f99185 52%,
+          #cf556c 78%,
+          #b12a5b 100%
+        );
+      }
+      25% {
+        transform: translateX(400px);
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+      }
+      50% {
+        transform: translateY(400px) translateX(600px);
+        background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      }
+
+      75% {
+        transform: translateX(0px) translateY(200px);
+        background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  </style>
+  <body>
+    <div class="elem"></div>
+  </body>
+</html>

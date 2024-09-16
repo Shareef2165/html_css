@@ -1,0 +1,152 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.sidebar  {
+    width: 20%;
+    background-color: #000000;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.sidebar .logo h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #FFFFFF;
+}
+
+.playlists h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.playlists ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlists li {
+    margin-bottom: 15px;
+}
+
+.playlists a {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.header input[type="button"]:hover{
+    background-color: blue;
+    color: white;
+}
+
+.header input[type="button"] {
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #282828;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #282828;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #B3B3B3;
+    box-sizing: border-box;
+}
+.img1{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+
+
+
+
+}
+.cards1 {
+    display: flex;
+    gap: 20px;
+}
+
+.card1 {
+    width: 150px;
+    height: 150px;
+    background-color: #282828;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #B3B3B3;
+}
+.img2{
+    height: 150px;
+    width: 150px;
+}
+.img3{
+    height: 150px;
+    width: 150px;
+}

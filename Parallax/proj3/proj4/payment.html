@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="payment.css">
+    
+<body>
+    <!-- payments -->
+     <div class="container">  
+        <!-- parent div -->
+   <div class="firstchild">
+    <div class="user-details">
+        <label for="name"><i class="fa-solid fa-user"></i>Name</label>
+        <input type="text" name="name" id="">
+         
+        <label for=""><i class="fa-solid fa-envelope"></i>Email</label>
+     
+ <input type="email" name="email" id="email">
+
+        <label for="address"><i class="fa-regular fa-address-card"></i>address</label>
+        <textarea name="address" id=""></textarea>
+        <label for="organization"><i class="fa-solid fa-sitemap"></i>organization name</label>
+        <input type="text" name="organization" id="">
+
+        <label for=""><i class="fa-solid fa-city"></i>City</label>
+        <select name="" id="">
+            <option value="">nellore</option>
+            <option value="">hyd</option>
+            <option value="">banglore</option>
+        </select>
+
+        <label for="">State</label>
+        <select name="" id="">
+            <option value="">ap</option>
+            <option value="">ts</option>
+            <option value="">tn</option>
+        </select>
+
+        <label for="">Zip</label>
+        <input type="text" name="zip" id="">
+    <input type="checkbox" name="shippiing/billing" id="">
+    <label for="shippiing/billing">Shipping address same as billing</label>
+<button>Submit</button>
+    </div>
+    <div class="payment"> 
+        <h3>Payments</h3>
+
+       <p>Accepted Cards</p>
+
+     <div class="accepted-cards">
+        <span>VISA</span><span>MASTER</span><span>American Exppress</span><span>Rupay</span>
+     </div>
+
+     <label for="card-name">Name on the card</label>
+     <input type="text" name="" id="">
+
+     <label for="credit/debit">Debit Card/ Credit Card</label>
+     <input type="nuumber" name="" id="" required>
+   
+     <label for="exp">Exp.</label>
+     <input type="datetime" name="" id="" required>
+        
+     <label for="cvv">CVV</label>
+     <input type="number" name="cvv" id="" max="3">
+    </div>
+   </div>
+    <div class="second-child">
+    <p>Cart</p>
+    <ul style="margin-top: 2px solid red; margin-bottom: 2px solid red;">
+        <li><a href="#">item 1</a></li>
+        <li><a href="#">item 2</a></li>
+        <li><a href="#">item 3</a></li>
+    </ul>
+    <p><i class="fa-solid fa-cart-shopping"></i></p>
+    <ul style="margin-top: 2px solid red; margin-bottom: 2px solid red;">
+        <li>1000</li>
+        <li>2000</a></li>
+        <li>3000</a></li>
+    </ul>
+
+    Total : 6000<i class="fa-solid fa-indian-rupee-sign"></i>
+    </div>
+    <footer></footer>
+     </div>
+
+         <!-- payments -->
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     background-color: #333; 
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    align-items: center;
+}
+
+/* nav ul li {
+    text-align: center;
+} */
+.nav ul li:nth-child(1), nav ul li:nth-child(2) {
+    justify-self: start;
+}
+.nav ul li:nth-child(3), nav ul li:nth-child(4) {
+    justify-self: end;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+.container {
+    height: 100vh;
+    overflow-x: hidden;/*remove bottom scroll bar */
+    overflow-y: auto;
+    perspective: 10px
+}
+
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;/*generate 3d effect */
+    z-index: -1;
+}
+.sea,.boat{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.sea{
+    transform: translateZ(-10px)scale(2);
+}
+.boat{
+    transform: translateZ(-5px)scale(1);
+}
+.title{
+    font-size: 4em;
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+    
+}
+.sentence{
+    background-color: #2323;
+    color: aliceblue;
+    font-size: 24px;
+    padding: 6px 20px;
+}
+
+
+footer {
+    background-color:grey;
+    color:white;
+    padding: 24px;
+    display: grid;
+    align-items: center;
+   font-size: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  
+}
+
+

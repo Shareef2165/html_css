@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+.list{
+    padding: 24px;
+}
+
+img{
+    height: 20%;
+    width: 20%;
+    padding: 24px;
+}
+table,td,th{
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 24;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+
+}
+img:hover{
+    background-color: white;
+    transform: scale(1.2);
+    margin: 2px;
+}
+footer {
+    background-color:grey;
+    color:white;
+    padding: 24px;
+    display: grid;
+    align-items: center;
+   font-size: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  
+}

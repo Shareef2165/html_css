@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+    
+}
+.box{
+ height: 100vh;
+ overflow-x: hidden;/*remove bottom scroll bar */
+ overflow-y: auto;
+ perspective: 10px;/*create image depth */
+
+
+}
+.header
+{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ transform-style: preserve-3d;/*generate 3d effect */
+ z-index: -1;
+}
+.bg, .fg
+{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+
+
+.bg{
+    transform: translateZ(-10px)scale(2);/*taking based on perspective */
+}
+.fg{
+   
+    transform: translateZ(-5px) scale(1.5);
+    margin-top: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.content{
+    background-color: #2323;
+    color: aliceblue;
+    font-size: 24px;
+    padding: 6px 20px;
+    
+}

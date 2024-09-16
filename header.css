@@ -1,0 +1,8 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 165, 124);
+    border-radius: 20px;
+    position: relative;
+    animation: move 15s i;
+}

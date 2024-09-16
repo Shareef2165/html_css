@@ -1,0 +1,59 @@
+.container{
+    border: 2px solid red;
+    padding: 20px;
+}
+.items{
+    border: 2px solid darkolivegreen;
+    padding: 16px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-direction:column-reverse ;
+}
+    
+.item1{
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item2{
+    border: 2px solid goldenrod;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item3{
+    border: 2px solid aqua;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item4{
+    border: 2px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item5{
+    border: 2px solid brown;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item6{
+    border: 2px solid chartreuse;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item7{
+    border: 2px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item8{
+    border: 2px solid brown;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item9{
+    border: 2px solid chartreuse;
+    padding: 10px;
+    margin-bottom: 10px;
+}

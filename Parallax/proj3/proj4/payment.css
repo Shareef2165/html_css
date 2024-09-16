@@ -1,0 +1,63 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+.container{
+    /* border:2px solid blue; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.second-child{
+    /* border:2px solid red; */
+    height:30% ;
+    width:30%;
+    display: block;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: lightgray;
+
+    
+
+
+}
+
+.accepted-cards{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+}
+.firstchild{
+    /* border:2px solid aqua; */
+    height: 70%;
+    width:100%;
+    display: flex;
+    padding: 20px;
+    background-color: lightgray;
+
+
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border:2px solid rgb(94, 255, 0); */
+    margin-right: 10%;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border:2px solid rgb(255, 0, 179); */
+
+    /* width: 25%; */
+}

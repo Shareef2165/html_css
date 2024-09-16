@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* #homepage{
+    padding: 1rem;
+} */
+nav{
+    /* border: 2px solid red; */
+    background-color: #FFFFFF;
+    color: #15294B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+/* .logo{
+    font-size: 1.5rem;
+    color:#15294B;
+    font-weight: 1000;
+} */
+
+ul{
+    display: flex;
+    list-style:none;
+    font-weight: 400;
+    align-items: center;
+}
+ul a{
+    text-decoration: none; 
+}
+
+ul a li {  
+
+    margin-right:20px; 
+    /* text-align: center;  */
+     
+}
+#navbtn{
+    margin-left: 2em;
+    box-shadow: 0px 4px 70px 0px rgba(30, 40, 52, 0.08);
+    background: rgba(29, 41, 57, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 0;
+
+
+}
+.headdinpage{
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: column;
+    align-items: center;
+}
+.hand{
+    padding: 1em;
+    background: rgba(242, 244, 247, 1);
+    border-radius: 2em;
+
+}
+.mainhedding h1{
+    color:rgba(234, 156, 40, 1);
+    font-weight: 700;
+    font-size: 80px;
+    
+
+
+}
+.second{
+    color:rgba(234, 156, 40, 1);
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+}
+.passage{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2em;
+    line-height: 42px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding-bottom: 5%;
+}
+.bottompage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F2F4F7;
+    padding: 10% 0;
+}
+.bottom{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.bottom h1{
+    padding: 1rem;
+    color:hsl(34, 88%, 60%);
+    font-weight: 700;
+    font-size: 2em;
+
+}
+.bottom p{
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1.5em;
+
+}
+.btn{
+    background-color: #1D2939;
+    color: #FFFFFF;
+    margin-bottom: 3em;
+    padding: 1em;
+    
+}
+.cards{
+   padding: 10% 0;
+}
+.txt{
+    padding: 1em;
+    width: 300px;
+}
+footer{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer p{
+    font-size: 1em;
+    font-weight: 400;
+    padding: 2em;
+}
+.more{
+   text-align: center;
+    /* margin: 12px auto; */
+    
+}
+.more input{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+
+}

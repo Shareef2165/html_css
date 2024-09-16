@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logine page></title>
+    <link rel="stylesheet" href="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card {
+            width: 300px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 14px;
+            color: #666666;
+        }
+        .form-container {
+            width: 300px;
+            text-align: center;
+        }
+        .form-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .btn-google {
+            background-color: #ffffff;
+            color: #000000;
+            border: 2px solid #e0e0e0;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .btn-google img {
+            margin-right: 10px;
+        }
+        .or {
+            margin: 20px 0;
+            font-size: 14px;
+            color: #999999;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .checkbox {
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .btn-create {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .terms {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+        .terms a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <i class="fa-brands fa-google"></i>
+            <div class="card-body">
+                <h2 class="card-title">Card title</h2>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <h1>Try Figma for free</h1>
+            <button class="btn-google">
+                <i class="fa fa-google"></i>
+                
+                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-114420440%3A1722675658032665&ddm=0">with Google</a> 
+            </button>
+            <div class="or">or</div>
+            <input type="email" placeholder="EMAIL" class="input-field">
+            <input type="password" placeholder="PASSWORD" class="input-field">
+            <div class="checkbox">
+                <input type="checkbox"> Subscribe to Figma tips and updates
+            </div>
+            <button class="btn-create">Create account</button>
+            <div class="terms">
+                By clicking "Create account" or "Continue with Google", you agree to the <a href="#">Figma TOS</a> and <a href="#">Privacy Policy</a>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

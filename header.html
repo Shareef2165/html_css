@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors Page</title>
+   
+    <style>
+        #header{
+            background-color: lightblue;
+            padding: 16px;
+            transition-property: backgroundcolour;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+        
+        }
+        #header:hover{
+            background-color: azure;
+            transition-timing-function: ease-out;
+            
+        }
+        #navbar{
+            background-color: lightcoral;
+            padding: 24px;
+        }
+        #navbar:hover{
+            background-color: red;
+            transform: scale(0.8);
+            transition-timing-function: ease-out
+            
+        }
+        #main{
+            background-color: lightgray;
+            padding: 24px;
+        }
+        #main:hover{
+            background-color: rgb(255, 245, 240);
+            transition-timing-function: ease-out
+
+        }
+        #section{
+            background-color: lightgreen;
+            padding: 16px;
+
+        }
+        #section:hover{
+            background-color: rgb(144, 200, 238);
+            transition-timing-function: ease-out
+        }
+        .article{
+            background-color: lightseagreen;
+            padding: 16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        .article:hover{
+            background-color: lightseagreen;
+            transform: scale(0.7);
+            transition-timing-function: ease-in-out
+
+        }
+        .footer{
+            background-color: lightskyblue;
+            padding: 18px;
+        }
+        .footer:hover{
+            background-color: rgb(223, 135, 250);
+            transform: scale(0.7);
+            transition-timing-function: ease-out
+            
+
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <header id="header">
+
+     <nav id="navbar">
+        <div class="box1"></div>
+
+         <span>Menu</span>
+         <span style="padding: 10px;">About</span>
+         <span style="float: right;">Contact</span>
+        
+     </nav>
+    </header>
+    <main id="main">
+        <section  id="section">
+            <article class="article">
+                <header>
+                    <h2>Article Title one</h2>
+                    <h3>J. K. Rowling</h3>
+                    <a href="/">J. K. Rowling</a>
+                </header>
+                <p>Joanne Rowling CH OBE FRSL, known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote Harry Potter, a seven-volume fantasy series published from 1997 to 2007</p>
+            </article>
+                <article class="article">
+                    <header>
+                        <h2>Article Title one</h2>
+                        <a href="/">George Orwell</a>
+                    </header>
+                    <p>Eric Arthur Blair was a British novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell, a name inspired by his favourite place River Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of democratic socialism.</p>
+
+               
+            </article>
+            <footer class="footer">
+                <p>&copy: Copy Right 2024.</p>
+            </footer>
+        </section>
+    </main>
+    
+</body>
+</html>

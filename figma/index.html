@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Registration System</h1>
+        <p class="header-subtitle">For Event, Meetup, Get Together</p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" class="list">Home</a></li>
+            <li><a href="#" class="list" >About</a></li>
+            <li><a href="#" class="Login-button">Login</a></li>
+            <li><a href="#" class="register-button">Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <div class="content-box">
+            <h2>Tooth Talk:</h2>
+            <p>A Casual Meetup for<br> Dental Professionals</p>
+            <button type="button" class="cta-button" onclick="myFunction">Register Now</button>
+        </div>
+        <div class="image-container">
+            <img src="./figpic.jpeg" alt="Dental Professional">
+            <script>
+                function myFunction(){
+                    document.body.style.backgroundColor="red";
+                }
+            </script>
+        </div>
+    </section>
+</body>
+</html>

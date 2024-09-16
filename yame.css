@@ -1,0 +1,108 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+body{
+     /* display: flex;   */
+   height: 100vh;
+    border-radius: 20px; 
+    
+} 
+.header{
+
+    display: flex; 
+    background-color: white;
+    padding: 15px; 
+    cursor: pointer;
+
+}
+.item{
+      /* display: flex; */
+    font-size: 2em;
+    background-color: aqua;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    flex-wrap: wrap;
+    /* flex-flow: 1; */
+}
+.about
+{
+    text-align: center;
+  padding: 5px;
+}
+.usn{
+    font-size: 1em;
+    font-weight: solid;
+}
+.designation{
+    
+    font-size: 3em;
+    font-family: italic;
+    font-weight: bolder;
+    font-family: "Damion", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+.main{
+    text-align: end;
+    font-weight: solid;
+}
+.getintouch{
+    /* justify-content: end; */
+    text-align: end;
+    padding: 10px;
+}
+.img1{
+    display: flex;
+    width: 1200px;
+    padding: 30px;
+}
+.content{
+    text-align: center;
+    color: black solid;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 150;
+}
+.buttonlink{
+    /* justify-content: center; */
+    text-align: center;
+    padding: 20px;
+}
+.about2{
+text-align: center;
+color: black solid;
+/* border-radius: 100px; */
+
+
+}
+.table1{
+    text-align: center;
+    padding: 30px;
+    background-color: aliceblue;
+    tr{
+        background-color: white;
+    }
+}
+.aboutdec{
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 10px;
+}
+.aboutimg{
+    height: 600;
+    width: 250;
+}
+footer{
+    background-color:lightslategray;
+    font-size: 1em;
+    padding: 10px;
+}

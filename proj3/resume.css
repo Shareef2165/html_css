@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     border: 5px solid lightblue; 
+    justify-content: center;
+    box-shadow: 2px 2px lightslategray;
+   
+
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+h2 {
+    color:darkblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.contact-info {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+hr {
+    border: none;
+    border-top: 2px solid red;
+    margin: 20px 0;
+}
+
+.section h2 {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+footer{
+    background-color: darkblue ;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+.float{
+    float: right;
+}
+
+@media screen and (max-width:600px) {
+
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     border: 5px solid lightblue; 
+    justify-content: center;
+    box-shadow: 2px 2px lightslategray;
+    }
+    h1 {
+        text-align: center;
+        color: darkblue;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    h2 {
+        color:darkblue;
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .contact-info {
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    hr {
+        border: none;
+        border-top: 2px solid red;
+        margin: 20px 0;
+    }
+    
+    .section h2 {
+        border-bottom: 2px solid red;
+        padding-bottom: 5px;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: darkblue ;
+        font-size: 24px;
+        padding: 10px;
+        color: white;
+    }
+}
